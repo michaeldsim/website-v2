@@ -1,0 +1,30 @@
+.footer-image {
+    width: 48px;
+}
+
+.FooterItems {
+    background: #333;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    width: 100%;
+    position: relative;
+}
+
+.footer-menu {
+    display: flex;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 8px;
+    list-style: none;
+    margin-right: 2rem;
+    height: 80px;
+    margin-bottom: 0;
+    justify-content: center;
+}
+
+.footer-text {
+    margin-top: 0;
+    padding-top: 10px;
+    text-align: center;
+    color:white;
+}

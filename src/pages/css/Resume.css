@@ -1,0 +1,17 @@
+.download-button {
+    text-decoration: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 1em;
+    
+}
+
+.content-wrap {
+    margin-bottom: 30px;
+}
+
+.resume {
+    margin-bottom: 3rem;
+}

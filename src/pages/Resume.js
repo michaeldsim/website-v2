@@ -1,0 +1,24 @@
+import React from 'react'
+import Footer from '../components/Footer/Footer'
+import Navbar from '../components/Navbar/Navbar'
+import {PDFObject} from 'react-pdfobject'
+import './css/Resume.css'
+
+const Resume = () => {
+    return (
+        <div>
+            <Navbar />
+            <div className='page-container'>
+                <div className='content-wrap'>
+                <div className='resume'>
+                <PDFObject url="/images/MichaelDSim_Resume.pdf" height='60vh'/>
+                </div>
+                <a className='download-button' href="/images/MichaelDSim_Resume.pdf" download="MichaelDSim_Resume.pdf">Download</a>
+                </div>
+                <Footer />
+            </div>
+        </div>
+    )
+}
+
+export default Resume;

@@ -1,0 +1,158 @@
+.image-text {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    top: 45%;
+    left: 13%;
+  }
+  
+.large-text {
+    font-size: 32px;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+  }
+  
+.small-text {
+    letter-spacing: 2px;
+  }
+
+.content-wrap-home {
+  margin-top: 150px;
+  margin-bottom: 150px;
+} 
+
+.content-wrap-image {
+  background-image: url(../../Atlanta.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex: 1;
+}
+
+.content-wrap-skills {
+  margin-top: 2rem;
+  padding-top: 2.5rem;
+  padding-bottom: 3rem;
+  background-color: #9C9C9C;
+  text-align: center;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.skills {
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
+.title {
+  letter-spacing: .1em;
+}
+
+.skillsTitle {
+  text-align: center;
+  letter-spacing: .5em;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+.aboutme {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.aboutme img {
+  border-radius: 5%;
+}
+
+.aboutme-text {
+  color: black;
+  padding-left: 20px;
+  width: 30vw;
+  font-size: 22px;
+  transition: all 1s ease-in;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: auto auto;
+  text-align: center;
+  color:white;
+}
+
+.box {
+  margin: 20px;
+}
+
+.hoverFade:hover {
+  background-color: rgba(220,220,220);
+  transition: .3s;
+}
+
+.jump-link {
+  font-family: Arial;
+  text-transform: uppercase;
+  margin: 0 auto;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+}
+
+.jump-link a {
+ border: 1px solid;
+ border-radius: 5px;
+ padding: 10px;
+ text-decoration: none;
+ color: white;
+}
+
+.jump-link a:visited {
+  color: inherit;
+}
+
+.home-link-container {
+  margin-top: 88vh;
+  margin-left: 45vw;
+  position: absolute;
+  opacity: 1;
+}
+
+.home-link {
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
+  color: white;
+  text-decoration: inherit;
+  font-weight: bold;
+}
+
+.home-link img {
+  width: 48px;
+  margin-left: 1rem;
+  margin-top: 8px;
+}
+
+@media screen and (max-width: 960px) {
+  .aboutme {
+    display: block;
+  }
+
+  .box {
+    margin: 8px;
+  }
+
+  .skills {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  
+
+  .aboutme-text {
+    width: 80%;
+    padding-left: 2.2rem;
+  }
+}

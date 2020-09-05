@@ -1,0 +1,50 @@
+.table tr:hover {
+    background-color: #ddd;
+}
+
+.table a:visited {
+    color: inherit;
+}
+
+.table td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+.table th{
+    background-color: rgb(131,131,131);
+    color: white;
+}
+
+.table {
+    margin-bottom: 80px;
+    overflow: auto;
+}
+
+.content-wrap {
+    margin-top: 20;
+}
+
+@media screen and (max-width: 960px) {
+    .table th {
+        display: none;
+    }  
+    
+    .table td{
+        display: block;
+    }
+
+    .projects-title {
+        background-color: rgb(131,131,131);
+        color: white;
+    }
+    
+    .projects-language {
+        margin-bottom: 20px;
+    }
+
+    .projects-language:before {
+        content: "Language: ";
+    }
+
+}
