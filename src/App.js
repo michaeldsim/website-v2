@@ -17,7 +17,7 @@ import {
 
 function App() {
   return (
-    <Router>
+    <Router basename='/'>
       <Switch>
         <Route exact path='/' component={MainPage} />
         <Route exact path='/about' component={About} />
