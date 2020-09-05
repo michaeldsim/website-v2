@@ -23,14 +23,14 @@ const MainPage = () => {
                     </div>
                     <div className='home-link-container'>
                     <FadeIn>
-                    <AnchorLink className='home-link' href='#more' offset='150'>Read more<img src='/images/double-arrow-down-white.svg' alt='arrow'/></AnchorLink>
+                    <AnchorLink className='home-link' href='#more' offset='150'>Read more<img src='/website-v2/images/double-arrow-down-white.svg' alt='arrow'/></AnchorLink>
                     </FadeIn>
                     </div>
                 </div>
             </div>
             <div id='more' className='content-wrap-home'>
             <div className='aboutme'>
-            <img src='/images/IMG_1813.jpg' alt='Myself'/>
+            <img src='/website-v2/images/IMG_1813.jpg' alt='Myself'/>
             <p className='aboutme-text'>
             Hi there! My name is Michael. Welcome to my website. I am currently an undergraduate student at Georgia State University studying Computer Science. Over the years, I have completed a few small personal projects to improve my skills as a developer along with my course work. I have a strong knowledge in Java which is what I mainly used for most of my courses. I also have experience in Python, HTML, CSS, JS, and ReactJS (which I used to create this website).
             </p>
