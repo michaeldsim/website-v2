@@ -11,7 +11,7 @@ const About = () =>
             <div className='page-container'>
                 <div className='content-wrap'>
                 <div className='about-me-box'>
-                    <img src='/#/images/image0.jpg' alt='Me and my girlfriend'/>
+                    <img src='/website-v2/images/image0.jpg' alt='Me and my girlfriend'/>
                     <div className='intro-text'>
                     <h3>Introduction</h3>
                     <p>

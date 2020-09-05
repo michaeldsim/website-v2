@@ -9,7 +9,7 @@ import Projects from './pages/Projects'
 import Resume from './pages/Resume'
 
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Route,
   Switch,
   Redirect
@@ -17,7 +17,7 @@ import {
 
 function App() {
   return (
-    <Router basename='/'>
+    <Router basename='/website-v2/'>
       <Switch>
         <Route exact path='/' component={MainPage} />
         <Route exact path='/about' component={About} />
