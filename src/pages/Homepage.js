@@ -9,9 +9,7 @@ import './css/Homepage.css'
 const MainPage = () => {
         return(
             <div>
-                <FadeIn>
                 <Navbar transparent={true} />
-                </FadeIn>
                 <div className='page-container'>
                 <div className='content-wrap-image'>
                 <div className='image-text'>
