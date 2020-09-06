@@ -8,7 +8,6 @@ const PageNotFound = () => {
             <div className='page-container'>
                 <Navbar />
                 <div className='content-wrap'>
-                    {/* stuff */}
                     <h3>
                         404
                     </h3>

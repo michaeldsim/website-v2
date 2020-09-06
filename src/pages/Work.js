@@ -14,7 +14,7 @@ const Work = () => {
                         {Jobs.map((itm, idx) => {
                             return(
                                 <div className='work'>
-                            <img src={itm.image}  alt='job'/>
+                            <img src={process.env.PUBLIC_URL+itm.image}  alt='job'/>
                             <div className='work-text' key={idx}>
                                 <div className='title-box'>
                                     <h3 className='work-title'>

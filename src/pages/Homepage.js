@@ -22,14 +22,14 @@ const MainPage = () => {
                     </div>
                     <div className='home-link-container'>
                     <FadeIn>
-                    <AnchorLink className='home-link' href='#more' offset='150'>Read more<img src='/images/double-arrow-down-white.svg' alt='arrow'/></AnchorLink>
+                    <AnchorLink className='home-link' href='#more' offset='150'>Read more<img src={process.env.PUBLIC_URL+'/images/double-arrow-down-white.svg'} alt='arrow'/></AnchorLink>
                     </FadeIn>
                     </div>
                 </div>
             </div>
             <div id='more' className='content-wrap-home'>
             <div className='aboutme'>
-            <img src='/images/IMG_1813.jpg' alt='Myself'/>
+            <img src={process.env.PUBLIC_URL+'/images/IMG_1813.jpg'} alt='Myself'/>
             {console.log('process env', process.env.PUBLIC_URL)}
             <p className='aboutme-text'>
             Hi there! My name is Michael. Welcome to my website. I am currently an undergraduate student at Georgia State University studying Computer Science. Over the years, I have completed a few small personal projects to improve my skills as a developer along with my course work. I have a strong knowledge in Java which is what I mainly used for most of my courses. I also have experience in Python, HTML, CSS, JS, and ReactJS (which I used to create this website).
@@ -49,7 +49,7 @@ const MainPage = () => {
                 })}
                 </div>
             <div className="jump-link">
-                <a href={NavItems[1].url}>Learn more</a>
+                <a href={process.env.PUBLIC_URL+NavItems[1].url}>Learn more</a>
             </div>
           </div>
                 <Footer />

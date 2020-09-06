@@ -13,7 +13,7 @@ class Footer extends Component {
                             return(
                                 <li key={index}>
                                     <a className={item.cName} href={item.url}>
-                                        <img className='footer-image' src={item.image} alt={item.title} />
+                                        <img className='footer-image' src={process.env.PUBLIC_URL+item.image} alt={item.title} />
                                     </a>
                                 </li>
                             )
