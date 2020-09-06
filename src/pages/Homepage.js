@@ -10,7 +10,7 @@ const MainPage = () => {
         return(
             <div>
                 <FadeIn>
-                <Navbar />
+                <Navbar transparent={true} />
                 </FadeIn>
                 <div className='page-container'>
                 <div className='content-wrap-image'>
