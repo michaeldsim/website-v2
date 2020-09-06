@@ -9,7 +9,7 @@ import Projects from './pages/Projects'
 import Resume from './pages/Resume'
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Switch,
   Redirect
