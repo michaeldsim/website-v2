@@ -49,7 +49,7 @@ const MainPage = () => {
                 })}
                 </div>
             <div className="jump-link">
-                <a href={process.env.PUBLIC_URL+NavItems[1].url}>Learn more</a>
+                <a href={process.env.PUBLIC_URL+ '/#' +NavItems[1].url}>Learn more</a>
             </div>
           </div>
                 <Footer />
