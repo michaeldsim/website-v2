@@ -40,7 +40,7 @@ class Navbar extends Component {
                     {NavItems.map((item, index) => {
                         return(
                             <li key={index}>
-                                <a className={item.cName} href={process.env.PUBLIC_URL + item.url}>
+                                <a className={item.cName} href={process.env.PUBLIC_URL + '/#' + item.url}>
                                 {item.title}
                                 </a>
                             </li>
