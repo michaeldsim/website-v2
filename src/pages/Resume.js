@@ -11,9 +11,9 @@ const Resume = () => {
             <div className='page-container'>
                 <div className='content-wrap'>
                 <div className='resume'>
-                <PDFObject url="/website-v2/images/MichaelDSim_Resume.pdf" height='60vh'/>
+                <PDFObject url="/images/MichaelDSim_Resume.pdf" height='60vh'/>
                 </div>
-                <a className='download-button' href="/website-v2/images/MichaelDSim_Resume.pdf" download="MichaelDSim_Resume.pdf">Download</a>
+                <a className='download-button' href="/images/MichaelDSim_Resume.pdf" download="MichaelDSim_Resume.pdf">Download</a>
                 </div>
                 <Footer />
             </div>

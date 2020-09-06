@@ -3,9 +3,8 @@ import Footer from '../components/Footer/Footer'
 import Navbar from '../components/Navbar/Navbar'
 import {Skills, NavItems} from '../components/MenuItems'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-
-import './css/Homepage.css'
 import FadeIn from 'react-fade-in'
+import './css/Homepage.css'
 
 const MainPage = () => {
         return(
@@ -15,7 +14,7 @@ const MainPage = () => {
                 </FadeIn>
                 <div className='page-container'>
                 <div className='content-wrap-image'>
-                    <div className='image-text'>
+                <div className='image-text'>
                     <FadeIn>
                         <p className='large-text'>MICHAEL D. SIM</p>
                         <p className='small-text'>an aspiring developer passionate about innovative technology and software</p>
@@ -23,14 +22,15 @@ const MainPage = () => {
                     </div>
                     <div className='home-link-container'>
                     <FadeIn>
-                    <AnchorLink className='home-link' href='#more' offset='150'>Read more<img src='/website-v2/images/double-arrow-down-white.svg' alt='arrow'/></AnchorLink>
+                    <AnchorLink className='home-link' href='#more' offset='150'>Read more<img src='/images/double-arrow-down-white.svg' alt='arrow'/></AnchorLink>
                     </FadeIn>
                     </div>
                 </div>
             </div>
             <div id='more' className='content-wrap-home'>
             <div className='aboutme'>
-            <img src='/website-v2/images/IMG_1813.jpg' alt='Myself'/>
+            <img src='/images/IMG_1813.jpg' alt='Myself'/>
+            {console.log('process env', process.env.PUBLIC_URL)}
             <p className='aboutme-text'>
             Hi there! My name is Michael. Welcome to my website. I am currently an undergraduate student at Georgia State University studying Computer Science. Over the years, I have completed a few small personal projects to improve my skills as a developer along with my course work. I have a strong knowledge in Java which is what I mainly used for most of my courses. I also have experience in Python, HTML, CSS, JS, and ReactJS (which I used to create this website).
             </p>
