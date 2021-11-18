@@ -50,7 +50,7 @@ export const FooterItems = [
 export const Skills = [
     {
         title: 'Object-Oriented Programming',
-        desc: '3 years of object-oriented design of tools and data structures. Proficient in Java and Python and experience with other languages such as C, PHP, and Scala.'
+        desc: `${new Date().getFullYear() - 2017} years of object-oriented design of tools and data structures. Proficient in Java, JavaScript, and Python and experience with other languages such as C, PHP, and Scala.`
     },
     {
         title: 'Web Development',
@@ -67,6 +67,20 @@ export const Skills = [
 ]
 
 export const Jobs = [
+    {
+        job: 'Brooksource - (The Home Depot)',
+        title: 'Software Engineer',
+        image: '/images/jobs/brooksource.png',
+        duration: 'June 2021 - Present',
+        desc: 'Currently I am working as a contractor for a client of Brooksource\'s (The Home Depot) where I work as a part of Supply Chain, more specifically the SOQ team. As a part of this team, I am responsible for building and maintaining DAGs (automated workflows) which calculate and load data to millions of SKUs daily using the Apache Airflow, Python, Bigquery and SQL. I have also designed and implemented REST APIs using Spring Boot and HBase to retrieve specific SKU information from Bigtable and create Google Cloud Dataflow tasks to perform ETL tasks from Bigquery to Bigtable as well.'
+    },
+    {
+        job: 'Stonebranch, Inc.',
+        title: 'Software Engineer Intern',
+        image: '/images/jobs/stonebranch.png',
+        duration: 'January 2021 - June 2021',
+        desc: 'During my time at Stonebranch, I was a part of the team that developed and maintained the Universal Controller, a centralized command-center for automation and IT orchestration software. Using Java, I implemented many features such as creating endpoints for the API in order to invoke certain server operations or creating new sections in the UI in order to retrieve different types of data. I also used Python and Robot Framework to develop unit tests for our automated regression test suite.'
+    },
     {
         job: 'MARX CryptoTech LP',
         title: 'Technical Support Intern',
