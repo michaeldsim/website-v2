@@ -11,7 +11,7 @@ const Resume = () => {
             <div className='page-container'>
                 <div className='content-wrap'>
                 <div className='resume'>
-                <PDFObject url={process.env.PUBLIC_URL+"/images/MichaelDSim_Resume.pdf"} height='60vh'/>
+                <PDFObject url={process.env.PUBLIC_URL+"/images/MichaelSim_ResumeATS.pdf"} height='60vh'/>
                 </div>
                 <a className='download-button' href={process.env.PUBLIC_URL+"/images/MichaelDSim_Resume.pdf"} download="MichaelDSim_Resume.pdf">Download</a>
                 </div>

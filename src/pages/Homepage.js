@@ -30,7 +30,7 @@ const MainPage = () => {
             <img src={process.env.PUBLIC_URL+'/images/IMG_1813.jpg'} alt='Myself'/>
             {console.log('process env', process.env.PUBLIC_URL)}
             <p className='aboutme-text'>
-            Hi there! My name is Michael. Welcome to my website. I am currently an undergraduate student at Georgia State University studying Computer Science. Over the years, I have completed a few small personal projects to improve my skills as a developer along with my course work. I have a strong knowledge in Java which is what I mainly used for most of my courses. I also have experience in Python, HTML, CSS, JS, and ReactJS (which I used to create this website).
+            Hi there! My name is Michael. Welcome to my website. I am a Software Engineer with a strong focus on Java as that is what I've used primarily in my professional career as well as in school. Aside from this, I like to pick up personal projects using new frameworks and/or languages in order to step out of my comfort zone and grow my skill set to constantly improve as a developer. I actually built this website as a way to teach myself about React.js.
             </p>
             </div>
           </div>
