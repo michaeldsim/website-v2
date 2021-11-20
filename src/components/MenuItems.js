@@ -79,7 +79,7 @@ export const Jobs = [
         title: 'Software Engineer Intern',
         image: '/images/jobs/stonebranch.png',
         duration: 'January 2021 - June 2021',
-        desc: 'During my time at Stonebranch, I was a part of the team that developed and maintained the Universal Controller, a centralized command-center for automation and IT orchestration software. Using Java, I implemented many features such as creating endpoints for the API in order to invoke certain server operations or creating new sections in the UI in order to retrieve different types of data. I also used Python and Robot Framework to develop unit tests for our automated regression test suite.'
+        desc: 'During my time at Stonebranch, I was a part of the team that developed and maintained the Universal Controller, a centralized command-center for automation and IT orchestration software. Using Java, I implemented many features such as creating endpoints for the API in order to invoke certain server operations or creating components in the UI for the new functions. I also used Python and Robot Framework to develop unit tests for our automated regression test suite.'
     },
     {
         job: 'MARX CryptoTech LP',
