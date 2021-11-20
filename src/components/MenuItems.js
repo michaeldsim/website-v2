@@ -72,7 +72,7 @@ export const Jobs = [
         title: 'Software Engineer',
         image: '/images/jobs/brooksource.png',
         duration: 'June 2021 - Present',
-        desc: 'Currently I am working as a contractor for a client of Brooksource\'s (The Home Depot) where I work as a part of Supply Chain, more specifically the SOQ team. As a part of this team, I am responsible for building and maintaining DAGs (automated workflows) which calculate and load data to hundreds of thousands of SKUs daily using the Apache Airflow, Python, Bigquery and SQL. I have also designed and implemented REST APIs using Spring Boot and HBase to retrieve specific SKU information from Bigtable and create Google Cloud Dataflow tasks to perform ETL tasks from Bigquery to Bigtable as well.'
+        desc: 'Currently I am working as a contractor for a client of Brooksource\'s (The Home Depot) where I work as a part of Supply Chain, more specifically the SOQ team. As a part of this team, I am responsible for building and maintaining DAGs (automated workflows) which calculate and load data to hundreds of thousands of SKUs daily using the Apache Airflow, Python, Bigquery and SQL. I have also designed and implemented REST APIs using Spring Boot and HBase to retrieve specific SKU information from Bigtable and create Google Cloud Dataflow tasks to perform ETL operations from Bigquery to Bigtable as well.'
     },
     {
         job: 'Stonebranch, Inc.',
