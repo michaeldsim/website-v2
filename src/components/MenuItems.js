@@ -68,11 +68,18 @@ export const Skills = [
 
 export const Jobs = [
     {
+        job: 'Atlassian',
+        title: 'Software Engineer',
+        image: '/images/jobs/atlassian.png',
+        duration: 'April 2022 - Present',
+        desc: 'Currently, I am working at Atlassian as a part of the Content Experience and the Better Together team for Confluence. While on these teams, I led the migration of our acceptance test suite for, created dashboards in SignalFX for certain metrics that we were tracking, and resolved vulnerability issues for macros within Confluence.'
+    },
+    {
         job: 'Brooksource - (The Home Depot)',
         title: 'Software Engineer',
         image: '/images/jobs/brooksource.png',
-        duration: 'June 2021 - Present',
-        desc: 'Currently I am working as a contractor for a client of Brooksource\'s (The Home Depot) where I work as a part of Supply Chain, more specifically the SOQ team. As a part of this team, I am responsible for building and maintaining DAGs (automated workflows) which calculate and load data to hundreds of thousands of SKUs daily using the Apache Airflow, Python, Bigquery and SQL. I have also designed and implemented REST APIs using Spring Boot and HBase to retrieve specific SKU information from Bigtable and create Google Cloud Dataflow tasks to perform ETL operations from Bigquery to Bigtable as well.'
+        duration: 'June 2021 - April 2022',
+        desc: 'Worked for a client of Brooksource\'s (The Home Depot) where I work as a part of Supply Chain, more specifically the SOQ team. As a part of this team, I am responsible for building and maintaining DAGs (automated workflows) which calculate and load data to hundreds of thousands of SKUs daily using the Apache Airflow, Python, Bigquery and SQL. I have also designed and implemented REST APIs using Spring Boot and HBase to retrieve specific SKU information from Bigtable and create Google Cloud Dataflow tasks to perform ETL operations from Bigquery to Bigtable as well.'
     },
     {
         job: 'Stonebranch, Inc.',
