@@ -72,7 +72,7 @@ export const Jobs = [
         title: 'Software Engineer',
         image: '/images/jobs/atlassian.png',
         duration: 'April 2022 - Present',
-        desc: 'Currently, I am working at Atlassian as a part of the Content Experience and the Better Together team for Confluence. While on these teams, I led the migration of our acceptance test suite for, created dashboards in SignalFX for certain metrics that we were tracking, and resolved vulnerability issues for macros within Confluence.'
+        desc: 'As a junior backend engineer at Atlassian on Confluence Cloud, I was responsible for developing and maintaining the backend infrastructure of the team collaboration software. My role included designing and implementing new features, optimizing performance, and ensuring the reliability and security of the platform. Working closely with other engineers, product managers, and designers, I gained experience in agile development, code reviews, and continuous learning. At Atlassian, I thrived in a supportive and collaborative culture that values innovation, transparency, and diversity.'
     },
     {
         job: 'Brooksource - (The Home Depot)',
